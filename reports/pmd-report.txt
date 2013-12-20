@@ -1,0 +1,38 @@
+
+src/banking/gui/Main.java:23	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/banking/gui/Main.java:23	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/banking/gui/Main.java:26	System.out.print is used
+src/banking/gui/Main.java:27	System.exit() should not be used in J2EE/JEE apps
+src/banking/gui/Main.java:30	Local variable 'propertyFile' could be declared final
+src/banking/gui/Main.java:31	Local variable 'frame' could be declared final
+src/banking/gui/MainFrame.java:16	Use explicit scoping instead of the default package private level
+src/banking/gui/MainFrame.java:17	Use explicit scoping instead of the default package private level
+src/banking/gui/MainFrame.java:18	Use explicit scoping instead of the default package private level
+src/banking/gui/MainFrame.java:19	Use explicit scoping instead of the default package private level
+src/banking/gui/MainFrame.java:20	Use explicit scoping instead of the default package private level
+src/banking/gui/MainFrame.java:27	Avoid excessively long variable names like displayAccountsButton
+src/banking/gui/MainFrame.java:28	Avoid excessively long variable names like displayODAccountsButton
+src/banking/gui/MainFrame.java:30	It is a good practice to call super() in a constructor
+src/banking/gui/MainFrame.java:30	Parameter 'propertyFile' is not assigned and could be declared final
+src/banking/gui/MainFrame.java:43	Avoid printStackTrace(); use a logger call instead.
+src/banking/gui/MainFrame.java:56	Local variable 'accountTypes' could be declared final
+src/banking/gui/MainFrame.java:62	Local variable 'depositButton' could be declared final
+src/banking/gui/MainFrame.java:63	Local variable 'withdrawButton' could be declared final
+src/banking/gui/MainFrame.java:64	Local variable 'saveButton' could be declared final
+src/banking/gui/MainFrame.java:66	Avoid excessively long variable names like displayAllAccountsButton
+src/banking/gui/MainFrame.java:66	Local variable 'displayAllAccountsButton' could be declared final
+src/banking/gui/MainFrame.java:111	Avoid variables with short names like e
+src/banking/gui/MainFrame.java:111	Parameter 'e' is not assigned and could be declared final
+src/banking/gui/MainFrame.java:112	Found 'DD'-anomaly for variable 'accounts' (lines '112'-'114').
+src/banking/gui/MainFrame.java:112	Found 'DD'-anomaly for variable 'accounts' (lines '112'-'116').
+src/banking/gui/MainFrame.java:118	Avoid variables with short names like sb
+src/banking/gui/MainFrame.java:119	Found 'DD'-anomaly for variable 'thisAcct' (lines '119'-'121').
+src/banking/gui/MainFrame.java:119	Found 'DU'-anomaly for variable 'thisAcct' (lines '119'-'126').
+src/banking/gui/MainFrame.java:122	Avoid concatenating nonliterals in a StringBuffer constructor or append().
+src/banking/gui/MainFrame.java:131	Avoid variables with short names like e
+src/banking/gui/MainFrame.java:131	Parameter 'e' is not assigned and could be declared final
+src/banking/gui/MainFrame.java:146	Avoid variables with short names like e
+src/banking/gui/MainFrame.java:146	Parameter 'e' is not assigned and could be declared final
+src/banking/gui/MainFrame.java:158	Avoid variables with short names like e
+src/banking/gui/MainFrame.java:158	Parameter 'e' is not assigned and could be declared final
+src/banking/gui/MainFrame.java:189	System.exit() should not be used in J2EE/JEE apps

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2013-02-27T14:33:19.768">
+<file name="src/banking/gui/Main.java">
+<violation beginline="23" endline="23" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="banking.gui" class="Main" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="23" endline="23" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="banking.gui" class="Main" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="banking.gui" class="Main" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="DoNotCallSystemExit" ruleset="J2EE Rules" package="banking.gui" class="Main" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#DoNotCallSystemExit" priority="3">
+System.exit() should not be used in J2EE/JEE apps
+</violation>
+<violation beginline="30" endline="30" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="banking.gui" class="Main" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'propertyFile' could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="banking.gui" class="Main" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'frame' could be declared final
+</violation>
+</file>
+<file name="src/banking/gui/MainFrame.java">
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="19" endline="19" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="20" endline="20" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like displayAccountsButton
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like displayODAccountsButton
+</violation>
+<violation beginline="30" endline="47" begincolumn="0" endcolumn="0" rule="CallSuperInConstructor" ruleset="Controversial Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="30" endline="30" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'propertyFile' is not assigned and could be declared final
+</violation>
+<violation beginline="43" endline="43" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="56" endline="56" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'accountTypes' could be declared final
+</violation>
+<violation beginline="62" endline="62" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'depositButton' could be declared final
+</violation>
+<violation beginline="63" endline="63" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'withdrawButton' could be declared final
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'saveButton' could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like displayAllAccountsButton
+</violation>
+<violation beginline="66" endline="66" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'displayAllAccountsButton' could be declared final
+</violation>
+<violation beginline="111" endline="111" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="111" endline="111" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="112" endline="114" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'accounts' (lines '112'-'114').
+</violation>
+<violation beginline="112" endline="116" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'accounts' (lines '112'-'116').
+</violation>
+<violation beginline="118" endline="118" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like sb
+</violation>
+<violation beginline="119" endline="121" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'thisAcct' (lines '119'-'121').
+</violation>
+<violation beginline="119" endline="126" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'thisAcct' (lines '119'-'126').
+</violation>
+<violation beginline="122" endline="122" begincolumn="0" endcolumn="0" rule="InefficientStringBuffering" ruleset="String and StringBuffer Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#InefficientStringBuffering" priority="3">
+Avoid concatenating nonliterals in a StringBuffer constructor or append().
+</violation>
+<violation beginline="131" endline="131" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="131" endline="131" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="146" endline="146" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="146" endline="146" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="158" endline="158" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="158" endline="158" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="189" endline="189" begincolumn="0" endcolumn="0" rule="DoNotCallSystemExit" ruleset="J2EE Rules" package="banking.gui" class="MainFrame" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#DoNotCallSystemExit" priority="3">
+System.exit() should not be used in J2EE/JEE apps
+</violation>
+</file>
+</pmd>

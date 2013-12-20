@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Review id="Lab6">
+  <ReviewIssue id="HDY2UJJA">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-03-05 :: 22:59:54:214 MST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-03-05 :: 23:00:25:809 MST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>p2</ReviewerId>
+    <AssignedTo>p1</AssignedTo>
+    <File line="10">src/banking/primitive/core/Account.java</File>
+    <Type>item.type.label.missing</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>protected should be private</Summary>
+    <Description>blah blah blah</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HDY3JFN5">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-03-05 :: 23:19:15:569 MST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-03-05 :: 23:23:58:504 MST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>p2</ReviewerId>
+    <AssignedTo>p2</AssignedTo>
+    <File line="6">src/banking/primitive/core/Account.java</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary></Summary>
+    <Description></Description>
+    <Annotation>team annotation</Annotation>
+    <Revision></Revision>
+    <Resolution>item.resolution.label.invalidWontfix</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+</Review>
